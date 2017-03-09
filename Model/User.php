@@ -4,35 +4,35 @@ namespace GorkaLaucirica\HipchatAPIv2Client\Model;
 
 class User
 {
-    protected $xmppJid;
+    public $xmppJid;
 
-    protected $deleted;
+    public $deleted;
 
-    protected $name;
+    public $name;
 
-    protected $lastActive;
+    public $lastActive;
 
-    protected $title;
+    public $title;
 
-    protected $links;
+    public $links;
 
-    //protected $presence;
+    //public $presence;
 
-    protected $created;
+    public $created;
 
-    protected $id;
+    public $id;
 
-    protected $mentionName;
+    public $mentionName;
 
-    protected $groupAdmin;
+    public $groupAdmin;
 
-    protected $timezone;
+    public $timezone;
 
-    protected $guest;
+    public $guest;
 
-    protected $email;
+    public $email;
 
-    protected $photoUrl;
+    public $photoUrl;
 
     /**
      * Builds a user object from server response if json given, otherwise creates an empty object
